@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Number Checker</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Prime Checker App -->
+        <div class="card">
+            <h1>Prime Number Checker</h1>
+            <div class="input-group">
+                <!-- Changed to text with numeric pattern to prevent scientific notation breaking large numbers -->
+                <input type="text" inputmode="numeric" id="numInput" placeholder="Enter a large number...">
+                <button onclick="checkPrime()">Check Number</button>
+            </div>
+            <div id="result"></div>
+        </div>
+
+        <!-- Developer Profile -->
+        <div class="card">
+            <div class="profile-img">SC</div>
+            <h2 class="dev-name">Sandipan Chowdhury</h2>
+            <p class="dev-bio">
+                Hello! I am Sandipan Chowdhury, a passionate web developer focused on creating intuitive, interactive, and responsive web experiences. I specialize in front-end technologies and love solving complex problems with clean code.
+            </p>
+            <div class="social-links">
+                <a href="https://facebook.com/yourprofile" target="_blank" class="fb"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/yourprofile" target="_blank" class="github"><i class="fab fa-github"></i></a>
+                <a href="https://youtube.com/c/yourchannel" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a>
+                <a href="https://instagram.com/yourprofile" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
